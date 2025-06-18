@@ -1,0 +1,543 @@
+:root{--primary: #fc6b57!important;}
+
+.corporate-success {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .text p {
+    font-size: 20px;
+    line-height: 1.6;
+    width: 25vw;
+  }
+  
+  .stats {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+  }
+  
+  .stat-box {
+    text-align: center;
+  }
+  
+  .stat-box h2 {
+    font-size: 64px;
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  .stat-box p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .divider {
+    width: 1px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+  }
+  
+  .divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    background-color: #4d4a64;
+    border-radius: 50%;
+  }
+
+
+  /* @media (max-width: 1488px) {
+    .corporate-success {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 60px 80px;
+        background-color: #000000;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .text p {
+        font-size: 20px;
+        line-height: 1.6;
+        max-width: 400px;
+        margin-bottom: 60px;
+      }
+
+      .stats {
+        display: flex;
+        align-items: center;
+        gap: 120px;
+    }
+  } */
+
+
+  .hero-slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('GrowthIQ1920x1300px.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -12vh;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent 50%, #000000 100%);
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 50vh;
+  }
+  
+  .hero-content h1 {
+    font-family: "fraunces-variable",sans-serif;
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: 700;
+    line-height: 1em;
+    display: block;
+  }
+  
+  .hero-content h1 span {
+    font-size: 2.5rem;
+    display: block;
+  }
+  
+  .hero-btn {
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #fc6b57;
+    color: white;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 60px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 0 #c64f3f;
+  }
+  
+  .hero-btn span {
+    font-size: 18px;
+    margin-left: 6px;
+  }
+  
+  .hero-btn:hover {
+    background-color: #e55c48;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-content h1 span {
+      font-size: 1.5rem;
+    }
+  
+    .hero-btn {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
+
+  .hero-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 16px;
+  }
+  
+  .hero-divider::before,
+  .hero-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: white;
+    opacity: 0.8;
+  }
+  
+  .hero-divider span {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .site-logo {
+    height: 60px;
+}
+
+.heading {
+  text-transform:none!important;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 479px) {
+  .service-sticky-card{
+  width: 90vw!important;
+  margin-left: auto!important;
+  margin-right: auto!important; 
+}}
+
+.arc-image{
+  font-size: 13.5px!important;
+}
+
+.bg-circle-absolute {
+  z-index: -11;
+  background-color: #2e4757!important;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  position: absolute;
+}
+
+.faq-title-18px {
+
+  text-transform: none!important;}
+
+  @media (max-width:801px) {
+
+  .mobile{
+  margin-left: auto!important;
+  margin-right: auto!important;
+  width: 93.5vw!important;
+}
+
+.mobile2{
+  width: 60vw!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+.mobile3{
+  width: 80vw!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+.mobile4{
+  top: 60vh;
+}
+
+.input:focus{
+  border-color: #eb6d5d!important;
+}
+}
+/* .main-body{
+  width: 90vw!important;
+  margin-left: auto!important;  
+  margin-right: auto!important;
+} */
+
+.w-slider-nav{
+  top: 0vh!important;
+}
+
+.partner-logo{
+  height: 100px!important;
+}
+textarea {
+  resize: vertical!important;
+}
+
+/*Delimitare pasrte stanga*/
+.bg-circle-absolute {
+  z-index: -11;
+  background-color: #ffa66b80;
+  border-radius: 50%;
+  width: 500px!important;
+  height: 500px!important;
+  position: absolute;
+}
+
+.image-wrapper-between {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1.25fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  place-items: center;
+  width: 40%!important;
+  display: grid;
+  position: relative;
+}
+
+._8px-circle {
+  background-color: transparent!important; 
+    border-radius: 0px!important;
+    width: 8px; 
+    height: 8px;
+  border-top: 10px solid transparent!important;
+  border-bottom: 10px solid transparent!important;
+  border-left: 10px solid #fc6b57!important;
+}
+
+/* Wrapper-ul de hover */
+.services-link-wrapper {
+  position: relative;
+}
+
+/* Card-ul dropdown */
+.services-dropdown-card {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  padding: 16px;
+  min-width: 220px;
+}
+
+/* Linkurile din dropdown */
+.services-dropdown-card .dropdown-link {
+  display: block;
+  padding: 8px 12px;
+  color: #1F2937;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.services-dropdown-card .dropdown-link:hover {
+  background: #f0f0f0;
+}
+
+/* Când facem hover pe link-ul "Servicii", dropdown-ul apare */
+.services-link-wrapper:hover + .services-dropdown-card {
+  display: block;
+}
+
+.navbar,
+.nav-menu,
+.nav-menu-wrapper {
+  overflow: visible !important;
+}
+
+
+ .stats-container {
+    max-width: 1326px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex; /* Menține afișarea pe un singur rând */
+    border-bottom: 1px solid #1f1f1e;
+    padding-top: 80px;
+    padding-bottom: 0;
+    gap: 20px; /* Spațiere între elemente */
+}
+
+.counter-v1-line {
+    background-image: linear-gradient(#1f1f1e00, #1f1f1e);
+    width: 1px;
+    height: 241px;
+}
+
+.stat-box {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%; /* Ajustare proporțională pentru ecrane mari */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pluss {
+    color: #ffffff;
+    font-size: 64px;
+    line-height: 100%;
+    display: flex; /* Asigură alinierea flex pe orice rezoluție */
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-number1, .stat-number2, .stat-number3 {
+    color: #ffffff;
+    font-size: 64px;
+    line-height: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-text {
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsivitate pentru ecrane mici */
+@media (max-width: 768px) {
+    .stats-container {
+        justify-content: center; /* Centrare pe ecrane mici */
+        gap: 20px;
+    }
+
+    .stat-box {
+        width: 45%; /* Lățime ajustată pentru două coloane pe ecrane mici */
+        margin-bottom: 20px;
+    }
+
+
+    .stat-number1, .stat-number2, .stat-number3 {
+        font-size: 48px; /* Diminuăm dimensiunea fontului */
+    }
+    .counter-v1-line {
+        background-image: linear-gradient(#1f1f1e00, #1f1f1e);
+        width: 1px;
+        height: 241px;
+    }
+    .pluss {
+        font-size: 48px;
+    }
+
+    .stat-text {
+        font-size: 18px; /* Dimensiune redusă pentru text */
+    }
+}
+
+/* Responsivitate pentru ecrane foarte mici */
+@media (max-width: 480px) {
+    .stats-container {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .stat-box {
+        width: 32vw; /* Lățime mai mică pentru dispozitive foarte mici */
+    }
+
+    .stat-number1, .stat-number2, .stat-number3, .pluss {
+        font-size: 32px; /* Diminuăm dimensiunea fontului pentru elemente */
+    }
+    .counter-v1-line {
+        display: none;
+    }
+    .stat-number2{
+        width: 15vw;
+    }
+
+    .stat-text {
+        font-size: 18px;
+    }
+}
+
+
+  .partnerz {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px 0 20px;
+}
+
+.partner-logoz {
+    width: 300px!important;
+    padding: 30px 40px;
+    height: auto;
+}
+
+/* Responsivitate */
+@media (max-width: 768px) {
+    .partnerz {
+        width: 90vw; /* Mai mare pe mobile pentru vizibilitate */
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .partner-logoz {
+        max-width: 80%; /* Ajustare dimensiuni pe ecrane mici */
+    }
+    .footer-links-horizontal {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+.accordion-switch {
+    white-space: nowrap!important;
+    ;}
+
+    .benefits-section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 150px 20px;
+    background-color: transparent;
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.benefits-section p {
+    margin: 20px 0;
+    text-align: left;
+    font-size: 18px;
+}
