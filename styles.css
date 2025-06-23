@@ -6,11 +6,6 @@ html {
     height: 100%;
 }
 
-html, body{
-  width: auto;
-  overflow-x: hidden!important;
-}
-
 .corporate-success {
   display: flex;
   justify-content: space-between;
@@ -610,9 +605,6 @@ textarea {
   align-items: center;
   justify-content: center;
   background-size: 100% 100%;
-}
-body{
-  overflow-x: hidden!important;
 }
 }
 
