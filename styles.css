@@ -4,8 +4,11 @@
 
 html {
     height: 100%;
-    width: 100vw !important;
-    overflow-x: hidden;
+}
+
+html, body{
+  width: auto;
+  overflow-x: hidden!important;
 }
 
 .corporate-success {
@@ -608,6 +611,9 @@ textarea {
   justify-content: center;
   background-size: 100% 100%;
 }
+body{
+  overflow-x: hidden!important;
+}
 }
 
 @media screen and (max-width: 479px) {
@@ -636,4 +642,17 @@ textarea {
     width: 50%;
     display: grid;
     align-items: center!important;  /* <- Asta face ca tot conținutul să fie centrat pe verticală */
+}
+
+.about-us-subtitle{
+  width: 123px!important;
+}
+
+.about-text-wrapper{
+  width: 60vw;
+}
+@media screen and (max-width: 992px){
+  .about-us-subtitle{
+    margin-top: 90px;
+}
 }
