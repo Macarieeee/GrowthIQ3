@@ -2,6 +2,12 @@
   --primary: #fc6b57 !important;
 }
 
+html {
+    height: 100%;
+    width: 100vw !important;
+    overflow-x: hidden;
+}
+
 .corporate-success {
   display: flex;
   justify-content: space-between;
@@ -101,6 +107,7 @@
   align-items: center;
   justify-content: center;
   margin-top: -12vh;
+
 }
 
 .hero-overlay {
@@ -616,4 +623,17 @@ textarea {
         font-size: 0.8rem!important;
         line-height: 25px;
     }
+}
+
+.team-thumbnail {
+    aspect-ratio: auto!important;
+}
+.team-grid {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    width: 50%;
+    display: grid;
+    align-items: center!important;  /* <- Asta face ca tot conținutul să fie centrat pe verticală */
 }
