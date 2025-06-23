@@ -560,7 +560,7 @@ textarea {
   white-space: nowrap !important;
   ;
 }
-
+/* 
 .benefits-section {
   width: 90%;
   margin-left: auto;
@@ -571,7 +571,7 @@ textarea {
   color: #000;
   font-size: 20px;
   font-weight: normal;
-}
+} */
 
 .benefits-section p {
   margin: 20px 0;
