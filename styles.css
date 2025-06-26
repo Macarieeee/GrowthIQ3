@@ -647,4 +647,18 @@ textarea {
   .about-us-subtitle{
     margin-top: 90px;
 }
+.about-text-wrapper {
+    width: 80vw;
+}
+.image-wrapper-between {
+    display: none!important;
+}
+}
+
+h2{
+  padding-top: 15px;
+}
+
+h3{
+font-size: 1.2rem!important;
 }
